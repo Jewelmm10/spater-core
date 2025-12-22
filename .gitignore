@@ -1,7 +1,6 @@
 # Ignore composer dependencies and lock file
 # Composer
 /vendor/
-/composer.lock
 
 # Node (if you add npm later)
 /node_modules/

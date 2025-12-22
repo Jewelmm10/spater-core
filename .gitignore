@@ -1,0 +1,39 @@
+# Ignore composer dependencies and lock file
+# Composer
+/vendor/
+/composer.lock
+
+# Node (if you add npm later)
+/node_modules/
+/package-lock.json
+/yarn.lock
+
+# WordPress specific
+*.log
+/wp-content/
+/.htaccess
+/local.config.php
+/*.sql
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Build/dist files (if you create any)
+/dist/
+/build/
+
+# Cache
+/.cache/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~

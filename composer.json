@@ -1,0 +1,22 @@
+{
+  "name": "jewelmm10/spater-core",
+  "version": "1.0.0",
+  "description": "Core functionality plugin for the Spater WordPress theme. Includes Elementor widgets, custom post types, and theme-related features.",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-only",
+  "autoload": {
+    "psr-4": {
+      "SpaterCore\\": "includes/"
+    },
+    "files": []
+  },
+  "authors": [
+    {
+      "name": "Md Jewel Miah",
+      "email": "jewelmm9@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {}
+}

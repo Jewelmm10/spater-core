@@ -60,6 +60,8 @@ final class Spater_Core {
     public function init_plugin() {
         if ( is_admin() ) {
             new SpaterCore\Admin();
+        } else {
+            // Frontend initializations can go here
         }
     }
 
